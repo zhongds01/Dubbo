@@ -9,15 +9,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * description: please add the description
- * author: ZDS
- * create_date : 2019/4/12
- * create_time : 16:42
+ * @author zhongdongsheng
  */
 @Service
 public class NameServiceImpl implements NameService {
     @Autowired
     UserService userService;
+    @Override
     public void sayName() {
         List<User> userList = userService.getUser();
         for (User user:userList

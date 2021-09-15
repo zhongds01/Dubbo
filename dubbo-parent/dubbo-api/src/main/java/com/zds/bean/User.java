@@ -1,25 +1,17 @@
 package com.zds.bean;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.io.Serializable;
 
 /**
- * description: please add the description
- * author: ZDS
- * create_date : 2019/4/12
- * create_time : 16:37
+ * @author zhongdongsheng
  */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User implements Serializable {
     private String name;
-
-    public User(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

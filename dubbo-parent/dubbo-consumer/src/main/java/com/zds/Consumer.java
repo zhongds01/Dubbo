@@ -4,10 +4,7 @@ import com.zds.service.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * description: please add the description
- * author: ZDS
- * create_date : 2019/4/12
- * create_time : 14:57
+ * @author zhongdongsheng
  */
 public class Consumer {
     public static void main(String[] args) {

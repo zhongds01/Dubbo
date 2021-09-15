@@ -7,12 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * description: please add the description
- * author: ZDS
- * create_date : 2019/4/12
- * create_time : 16:38
+ * @author zhongdongsheng
  */
 public class UserServiceImpl implements UserService {
+    @Override
     public List<User> getUser() {
         List<User> userList = new ArrayList<User>();
         userList.add(new User("Tom"));

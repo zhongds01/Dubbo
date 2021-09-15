@@ -6,10 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.io.IOException;
 
 /**
- * description: please add the description
- * author: ZDS
- * create_date : 2019/4/12
- * create_time : 14:55
+ * @author zhongdongsheng
  */
 public class MainApplication {
     public static void main(String[] args) throws IOException {
@@ -17,6 +14,5 @@ public class MainApplication {
         ApplicationContext context = new ClassPathXmlApplicationContext("provider.xml");
         System.out.println("Provider started...");
         //System.in.read();
-
     }
 }
